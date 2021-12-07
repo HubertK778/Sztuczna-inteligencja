@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    overflow-x: hidden;
+}
+
+#header{
+    width:100vw;
+    height:15vh;
+    background: linear-gradient(to bottom, #243B55, #141E30);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+
+.nav{
+    font-size: 90%;
+    font-weight: 700;
+    color: white;
+    margin-left: 5%;
+    width: 20%;
+    position: relative;
+    height:80%;
+    border-radius: 7px;
+    transition:all 500ms ease-in-out;
+    margin: auto;
+    cursor: pointer;
+} 
+
+.nav:hover{
+    background-color: white;
+    color:#233953;
+}
+
+.nav div{
+    text-align: center;
+    height: 25%;
+    width:90%;
+    position: absolute;
+    left:50%;
+    right:50%;
+    top:50%;
+    bottom:50%;
+    transform: translate(-50%,-50%);
+}
+
+.bg img{
+    width:100vw;
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+}
+
+.bg {
+
+    position: relative;
+}
+
+.cytat {
+    color: white;
+    text-align: center;
+    font-size: 85%;
+    width:50%;
+    position:absolute;
+    top:30%;
+    left: 10%;
+}
+
+.cytat span{
+    position: absolute;
+    left:3%;
+    top:85%;
+}
